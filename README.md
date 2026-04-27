@@ -1,187 +1,99 @@
-# 🎸 Landing Page – Rock Band (HTML & CSS Assessment)
+# 🍔 [Landing Page Name]
 
-## 📌 Project Overview
-
-This project is a **starter template** for a performance assessment focused on building a responsive landing page for a rock band.
-
-The goal is to transform this base into a **visually engaging, responsive, and well-structured website** that promotes the band, their identity, and upcoming events.
+A modern and responsive landing page built for **Rock Band: Sleeping With Sirens**.  
+This project focuses on clean design, user experience, and conversion optimization.
 
 ---
 
-## 🎯 What is Expected
+## 🚀 Overview
 
-You are expected to:
+This landing page was created to:
 
-* Build a complete landing page using **semantic HTML5**.
-* Apply **CSS3 styles** to achieve a strong visual identity (rock style).
-* Implement **responsive design** for both:
-
-  * Desktop (>1024px)
-  * Mobile
-* Use **Flexbox and/or Grid** where appropriate.
-* Ensure the page is **clean, readable, and well-organized**.
+- Attract users interested in **[Web Development]**
+- Showcase **[Rock Band Website]**
+- Encourage users to **[main action: Show a Band Website with future events]**
 
 ---
 
-## 🧱 Project Structure
+## 🎯 Features
 
-```
-├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── icons
-│   │   └── logo.ico
-│   ├── img
-│   │   ├── img-1.jpg ... img-10.jpg
-│   │   └── guide.png
-│   └── js
-│       └── main.js
-├── index.html
-└── README.md
-```
+- Responsive design (mobile, tablet, desktop)
+- Modern UI/UX
+- Smooth navigation
+- Call-to-action sections
 
 ---
 
-## 🧩 HTML Guidelines
+## 🛠️ Technologies Used
 
-Your `index.html` already includes the base structure.
-
-You must:
-
-* Use semantic tags:
-
-  * `<header>`
-  * `<nav>`
-  * `<main>`
-  * `<section>`
-  * `<article>`
-  * `<footer>`
-
-* Include the following sections:
-
-  * Hero (main visual section)
-  * Events (band tour dates)
-  * About (band info)
-  * Multimedia (images or media content)
-
-* Add at least one **unordered list (`<ul>`)**:
-
-  * Influences
-  * Values
-  * Social links
-
-* (Optional – Extra Points)
-
-  * Use a **table (`<table>`)** for events
-
-👉 Focus on **clean structure and readability**.
+- HTML5
+- CSS3
+- [JavaScript]
+- [Other tools]
 
 ---
 
-## 🎨 CSS Guidelines
+## 📸 Sections Included
 
-The provided `style.css` is intentionally minimal.
-
-You should:
-
-* Define your own:
-
-  * Colors (rock style recommended)
-  * Typography
-  * Spacing
-
-* Apply layout techniques:
-
-  * Flexbox
-  * Grid
-
-* Implement responsive design using **media queries**
-
-* Ensure:
-
-  * Proper spacing between sections
-  * Visual hierarchy (titles, buttons, content)
-  * Consistent styling
-
-👉 Avoid writing everything in one block. Organize your CSS clearly.
+- **Hero Section** – Eye-catching introduction with main message  
+- **About Section** – Information about the event/product  
+- **Table with Dates** – Display of   
+- **Gallery** – Visual showcase  
+- **Contact / CTA Section** – Final action for users  
 
 ---
 
-## 📱 Responsive Design
+## 📂 Project Structure
 
-Your site **must adapt** to different screen sizes.
+/project-folder
+│── index.html
+│── style.css
+│── script.js (optional)
+│── /assets
 
-Minimum requirement:
-
-* Desktop layout (>1024px)
-* Mobile layout
-
-Hints:
-
-* Stack elements vertically on mobile
-* Consider navigation behavior (e.g., hamburger menu)
-* Resize images and text properly
 
 ---
 
-## 🖼️ Images & Assets
+## ⚙️ How to Use
 
-Inside `/assets/img` you will find:
-
-* Multiple images (`img-1.jpg` to `img-10.jpg`)
-* A visual reference: `guide.png`
-
-Use these images to:
-
-* Build the hero section
-* Populate the gallery
-* Add visual identity to the page
-
-⚠️ The guide is a **reference**, not something to copy exactly.
-
----
-
-## ⚙️ JavaScript (Optional)
-
-The file `main.js` is included for optional enhancements:
-
-* Mobile menu toggle
-* Simple interactions
-
-This is **not required**, but can give extra value.
-
----
-
-## 📝 Good Practices
-
-* Keep your code **clean and readable**
-* Use indentation consistently
-* Write comments when necessary (in English)
-* Organize sections clearly
-
----
-
-## 🚀 How to Run
-
-1. Download or clone the project
+1. Clone the repository
 2. Open `index.html` in your browser
-
-No installation required.
-
----
-
-## 🧠 Final Note
-
-This project is not about copying a design exactly.
-
-It is about:
-
-* Understanding structure
-* Making design decisions
-* Applying responsive techniques
-
-Your solution should reflect your own approach while meeting the requirements.
+3. Customize the content based on your needs
 
 ---
 
-🔥 Good luck and rock on!
+## ✏️ Customization Guide
+
+- Replace text content in HTML
+- Update images inside `/assets`
+- Modify colors and fonts in CSS
+- Adjust sections depending on the project goal
+
+---
+
+## 🎨 Design Goal
+
+The goal of this landing page is to create a **[emotion: excitement, trust, curiosity]** experience that motivates users to **[desired action]**.
+
+---
+
+## 📈 Future Improvements
+
+- Add animations
+- Improve accessibility
+- Integrate backend or API
+- Optimize SEO
+
+---
+
+## 👤 Author
+
+**[Nicolas Guarin]**  
+[Web Development]
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
+

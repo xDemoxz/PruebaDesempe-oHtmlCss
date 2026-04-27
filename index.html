@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Shattered Riffs</title>
+    <title>Sleeping With Sirens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/icons/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
+
 <body>
 
     <!-- HEADER -->
     <header class="header">
-        <div class="container header__content">
-            <h1 class="logo">Shattered Riffs</h1>
+        <div class="container header-content">
+            <h1 class="logo">Sleeping <span>With Sirens</span></h1>
 
             <!-- Nav for desktop / hamburger for mobile -->
             <nav class="nav">
-                <ul class="nav__list">
+                <ul class="nav__list" id="navlist">
                     <li><a href="#events">Events</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#media">Media</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#footer">Newsletter</a></li>
                 </ul>
             </nav>
 
             <!-- Hint for JS (optional extra points) -->
-            <button class="menu-toggle">☰</button>
+            <button class="menu-toggle" id="menuBtn">☰</button>
         </div>
     </header>
 
     <main>
 
         <!-- HERO -->
-        <section class="hero">
-            <div class="hero__overlay">
-                <h2>Rock the Night</h2>
-                <p>Upcoming Tour</p>
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+
+            <div class="hero_content">
+                <h2 class="section__title hero-tlt">Rock the Night with,</h2>
+                <h2 class="section__title2">Sleeping With Sirens</h2>
+                <p color>Upcoming Tour</p>
                 <a href="#events" class="btn">View Events</a>
             </div>
         </section>
@@ -59,19 +68,26 @@
                         <td>15 May</td>
                         <td>Madrid</td>
                         <td>Sala Sol</td>
-                        <td><button>Buy</button></td>
+                        <td><button class="btn-table">Buy</button></td>
                     </tr>
                     <tr>
                         <td>18 May</td>
                         <td>Barcelona</td>
                         <td>Razzmatazz</td>
-                        <td><button>Buy</button></td>
+                        <td><button class="btn-table">Buy</button></td>
                     </tr>
                     <tr>
                         <td>22 May</td>
                         <td>Valencia</td>
                         <td>Moon Club</td>
-                        <td><button>Buy</button></td>
+                        <td><button class="btn-table">Buy</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>27 May</td>
+                        <td>Tenerife</td>
+                        <td>Boombay Club</td>
+                        <td><button class="btn-table">Buy</button></td>
                     </tr>
                 </tbody>
             </table>
@@ -82,20 +98,22 @@
             <h2>About the Band</h2>
 
             <div class="about__content">
-                <img src="./assets/img/img-1.jpg" alt="Band photo">
+                <div class="about-img">
+                    <img src="./assets/img/swsmemb.jpg" alt="Band photo">
+                </div>
 
                 <article>
                     <p>
-                        Shattered Riffs is a high-energy rock band known for powerful live performances
-                        and raw sound.
+                        Sleeping with Sirens is an American rock/post-hardcore band formed in 2009, known for Kellin
+                        Quinn's high-pitched vocals, melodic pop-influenced hooks, and heavy guitar riffs.
                     </p>
 
                     <!-- Required list -->
                     <h3>Our Influences</h3>
                     <ul>
-                        <li>Classic Rock</li>
-                        <li>Hard Rock</li>
-                        <li>Alternative</li>
+                        <li>🎸 Classic Rock</li>
+                        <li>🤘 Hard Rock</li>
+                        <li>🥁 Alternative</li>
                     </ul>
                 </article>
             </div>
@@ -103,34 +121,112 @@
 
         <!-- MEDIA -->
         <section id="media" class="media container">
-            <h2>Multimedia</h2>
+            <h2>Live's performance</h2>
+            <div class="media-content-cont">
+                <div class="media-grid">
+                    <div class="media-item">
+                        <img src="./assets/img/img-2.jpg" alt="">
+                        <div class="media-overlay">
+                            <span>Madrid</span>
+                        </div>
+                    </div>
 
-            <div class="media__grid">
-                <img src="./assets/img/img-2.jpg" alt="">
-                <img src="./assets/img/img-3.jpg" alt="">
-                <img src="./assets/img/img-4.jpg" alt="">
-                <img src="./assets/img/img-5.jpg" alt="">
-                <img src="./assets/img/img-6.jpg" alt="">
-                <img src="./assets/img/img-7.jpg" alt="">
+                    <div class="media-item">
+                        <img src="./assets/img/img-3.jpg" alt="">
+                        <div class="media-overlay">
+                            <span>Barcelona</span>
+                        </div>
+                    </div>
+
+                    <div class="media-item">
+                        <img src="./assets/img/img-4.jpg" alt="">
+                        <div class="media-overlay">
+                            <span>Valencia</span>
+                        </div>
+                    </div>
+
+                    <div class="media-item">
+                        <img src="./assets/img/img-5.jpg" alt="">
+                        <div class="media-overlay">
+                            <span>Tenerife</span>
+                        </div>
+                    </div>
+
+                    <div class="media-item">
+                        <img src="./assets/img/img-6.jpg" alt="">
+                        <div class="media-overlay">
+                            <span>Paris</span>
+                        </div>
+                    </div>
+
+                    <div class="media-item">
+                        <img src="./assets/img/img-7.jpg" alt="">
+                        <div class="media-overlay">
+                            <span>Venecia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ay_Yy4PtA6M?list=RDAy_Yy4PtA6M"
+                        title="Sleeping With Sirens - If You Can&#39;t Hang | Audiotree Live" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
             </div>
         </section>
 
     </main>
 
     <!-- FOOTER -->
-    <footer id="contact" class="footer">
-        <div class="container footer__content">
-            <p>© <span id="year"></span> Shattered Riffs</p>
+    <footer class="footer" id="contacto">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-cine">Sleeping With</span>
+                    <span class="logo-noche">Sirens</span>
+                </div>
+                <p>¡Live the best extreme experience!</p>
+            </div>
 
-            <!-- Another possible list -->
-            <ul class="social">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Spotify</a></li>
-                <li><a href="#">YouTube</a></li>
-            </ul>
+            <div class="footer-enlaces">
+                <h4>ENLACES</h4>
+                <ul>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-redes">
+                <h4>SÍGUENOS</h4>
+                <div class="redes-iconos">
+                    <a href="www.facebook.com" class="red-social">f</a>
+                    <a href="#" class="red-social">ig</a>
+                    <a href="#" class="red-social">tw</a>
+                    <a href="#" class="red-social">yt</a>
+                </div>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>NEWSLETTER</h4>
+                <p>Recieve all the news!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" />
+                    <button type="submit">SUSCRIBIRSE</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom" id="footer">
+            <p> &copy; 2026 Sleeping With Sirens. <br> All rights reserved.</p>
         </div>
     </footer>
 
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/hambmenu.js"></script>
+    <script src="assets/js/smooth.js"></script>
 </body>
+
 </html>
